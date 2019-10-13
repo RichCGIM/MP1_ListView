@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         List<String> data = new ArrayList<>();
 
         // Add 1 to 99 in the data sets
-        for (int i = 1; i < 100; i++) {
+        for (int i = 1; i < 1000; i++) {
             data.add(String.valueOf(i));
         }
 

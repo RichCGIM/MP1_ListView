@@ -10,14 +10,13 @@ import java.util.List;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class MyAdapter extends  RecyclerView.Adapter<MyViewHolder> {
+public class MyAdapter extends RecyclerView.Adapter<MyViewHolder> {
     private List<String> mData;
     private LayoutInflater mInflater;
 
     public MyAdapter(Context context, List<String> data) {
         this.mData = data;
         this.mInflater = LayoutInflater.from(context);
-
     }
 
     @Override
